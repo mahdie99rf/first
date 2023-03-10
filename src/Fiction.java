@@ -9,4 +9,5 @@ public class Fiction extends Book{
         this.price = 24.99;
 
     }
+
 }

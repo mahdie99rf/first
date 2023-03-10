@@ -4,5 +4,6 @@ public class UseBook {
         NonFiction nonFiction = new NonFiction("Oliver Twist");
         System.out.println(fiction);
         System.out.println(nonFiction);
+        System.out.println(nonFiction);
     }
 }
