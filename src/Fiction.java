@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Fiction extends Book{
+    public Fiction(String title) {
+        super(title);
+        setPrice();
+    }
 
-public class Fiction {
+    @Override
+    public void setPrice() {
+        this.price = 24.99;
+
+    }
 }
